@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:wght@900&display=swap" rel="stylesheet">
+  <title>UrbanUplift - Home</title>
+  <style>
+    body {
+      background: #FDFCFC;
+      margin: 0;
+      padding: 0;
+      font-family: "Inter";
+      scroll-behavior: smooth;
+    }
+    header {
+      position: absolute;
+      left: 10%;
+      top: 50px;
+      height: 35px;
+      width: 80%;
+      background: transparent;
+      display: flex;
+      align-items: center;
+    }
+    #reno-content {
+      position: absolute;
+      top: 150px;
+      left: 10%;
+      width: 80%;
+      background: transparent;
+    }
+    #reno-content .reno-card {
+      width: 100%;
+      height: 405px;
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0px 0px 30px 1px #CBCBCB;
+    }
+    #reno-content .reno-card > img {
+      position: relative; 
+      top: 0px;
+      width: 100%;
+      border-radius: 15px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img style="height: 35px;" src="./static/logo.svg" />
+    <img style="position: absolute; right: 0; height: 12.5px;" src="./static/menu.svg" />
+  </header>
+  <div id="reno-content">
+    <div class="reno-card">
+      <img src="./static/reno-image-1.svg" />
+      <p style="margin-top: 25px; font-size: 12.5px; font-weight: 400; margin-left: 15px;">2576 Glendale Ave. Upper Arlington, OH</p>
+      <p style="margin-top: -2.5px; font-weight: 100; font-size: 12.5px; margin-left: 15px;"><i>Charming exterior and design. Looking for contractors to volunteer their time and skills.</i></p>
+      <p style="margin-top: -7.5px; font-weight: 400; font-size: 12.5px; margin-left: 15px;">Renovations:</p>
+      <ul style="margin-top: -7.5px;">
+        <li style="font-weight: 100; font-size: 12.5px;">Plumbing</li>
+        <li style="font-weight: 100; font-size: 12.5px;">Drywall</li>
+        <li style="font-weight: 100; font-size: 12.5px;">Framing</li>
+        <li style="font-weight: 100; font-size: 12.5px;">Exterior</li>
+      </ul>
+      <p style="margin-top: -7.5px; font-weight: 400; font-size: 12.5px; margin-left: 15px;">Total Donations</p>
+      <ul style="margin-top: -7.5px;">
+        <li style="font-weight: 100; font-size: 12.5px;">103.2k/100k</li>
+      </ul>
+    </div>
+    <div style="margin-top: 25px; display: flex; flex-direction: row; justify-content: space-between;">
+    <span style="margin-top: 15px; width: 140px; height: 50px; line-height: 50px; border-radius: 10px; background: #453F3C; align-items: center; text-align: center; font-size: 12.5px; color: white;">Fund</span>
+    <span style="margin-top: 15px; width: 140px; height: 50px; line-height: 50px; border-radius: 10px; background: #726e6c; align-items: center; text-align: center; font-size: 12.5px; color: white;">Volunteer</span>
+    </div>
+  </div>
+</body>
+</html>
